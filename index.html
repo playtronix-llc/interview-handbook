@@ -1,0 +1,215 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Playtronix Engineering Interview Handbook</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: #f6f7fb;
+      color: #111827;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .site-header {
+      border-bottom: 1px solid #e5e7eb;
+      background: #ffffff;
+    }
+
+    .site-header-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.75rem 1.25rem;
+    }
+
+    .site-header h1 {
+      margin: 0 0 0.25rem;
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+
+    .site-header p {
+      margin: 0;
+      color: #4b5563;
+      font-size: 0.95rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 3rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h3 {
+      font-size: 1.05rem;
+      margin-top: 1.25rem;
+      margin-bottom: 0.35rem;
+    }
+
+    h4 {
+      font-size: 0.98rem;
+      margin-top: 1rem;
+      margin-bottom: 0.25rem;
+    }
+
+    p {
+      margin-top: 0.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    ul {
+      padding-left: 1.25rem;
+      margin-top: 0.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .section-label {
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 0.7rem;
+      color: #9ca3af;
+      margin-bottom: 0.15rem;
+    }
+
+    footer {
+      border-top: 1px solid #e5e7eb;
+      padding: 1rem 1.25rem 1.5rem;
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 0.75rem;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <h1>Playtronix</h1>
+      <p>Engineering Interview Handbook</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="engineering-handbook">
+      <div class="section-label">Interview guide</div>
+      <h2>Overview</h2>
+
+      <p>
+        At Playtronix, we evaluate candidates on broad distributed engineering skills
+        and strong software engineering fundamentals; this guide applies to both frontend
+        and backend interviews. Our interview framework focuses on problem-solving and
+        learning agility, letting us see both depth and breadth. We want to understand not
+        only how you code, but how you think. The process is structured in 3 stages, with
+        interviews scheduled accordingly.
+      </p>
+
+      <h3>Stage 1 · Live coding round · 60 minutes · Online</h3>
+      <p>
+        In this interview, you will solve coding problems live using LeetCode’s online coding
+        platform. You will share your screen with the interviewer throughout the session—no IDE
+        setup is required.
+      </p>
+      <p>
+        This round will primarily focus on data structures and algorithms, so be prepared to
+        solve problems involving arrays, strings, recursion, linked lists, trees, graphs,
+        dynamic programming, and other core concepts.
+      </p>
+      <p>
+        Please ensure you have an active LeetCode account before the interview, as all coding
+        will be done directly on LeetCode during the session.
+      </p>
+      <p>Each interview is capped at 60 minutes and is designed to evaluate:</p>
+      <ul>
+        <li>Problem-solving skills</li>
+        <li>Code quality and efficiency</li>
+        <li>Understanding of algorithms and data structures</li>
+        <li>Communication of thought process</li>
+      </ul>
+
+      <h3>Stage 2 · Tech round · 60 minutes · On-site interview</h3>
+      <p>
+        Note: This round is required to be conducted offline at our Belgrade office. Under
+        exceptional circumstances, it may be run online via Google Meet and
+        <a href="https://excalidraw.com" target="_blank" rel="noopener noreferrer">excalidraw.com</a>
+        for drawing system architecture.
+      </p>
+      <p>
+        This interview assesses your technical depth, breadth, and problem-solving through
+        designing a solution to a defined problem. Your interviewer will evaluate your thought
+        process, decision-making, and considerations such as performance and reliability. It
+        varies between frontend and backend as follows:
+      </p>
+
+      <h4>Backend</h4>
+      <p>
+        It is a typical system design round. You will design a solution on a whiteboard or paper,
+        starting with fundamentals and adding complexity. Asking clarifying questions early and
+        clearly communicating your thinking is essential. We are interested in your approach, how
+        you draw from past experience, and how you design with customers, scalability, and
+        reliability in mind. You can also expect questions in the language of your specialty and
+        some questions based on your previous experience.
+      </p>
+
+      <h4>Frontend</h4>
+      <p>
+        The session will include a live-coding segment. Tasks will be short and focused on
+        practical skills—e.g., code small utilities in JS/TS, solve a React component logic
+        challenge, build a tiny state machine, or optimize a performance bottleneck. We evaluate
+        code clarity, ability to reason about edge cases, and how well you translate theoretical
+        knowledge into practice.
+      </p>
+      <p>
+        Please be prepared for in-depth theory questions across JS/TS, React and its ecosystem,
+        system design and architecture, and frontend performance. We will focus on language
+        fundamentals and React internals. Expect scenario-based reasoning rather than rote
+        definitions.
+      </p>
+
+      <h3>Stage 3 · Behavioural round · 60 minutes · Online</h3>
+      <p>
+        This interview includes a set of behavioural interview questions, aimed at assessing how
+        your thought process and actions are aligned with our core set of company values. In this
+        round, we are keen to understand how you collaborate with your teams, cross-functional
+        communication, previous projects, and to get a deeper sense of your ambitions to ensure
+        the role is in fact the right one for you.
+      </p>
+      <p>
+        Our questions will be scenario-based, so please come prepared with examples that
+        demonstrate your experience across one or more projects that you have been a part of or
+        have led.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Playtronix · Engineering Interview Handbook
+  </footer>
+</body>
+</html>
+```
